@@ -3,9 +3,7 @@
  */
 package spelling;
 
-import static org.junit.Assert.*;
-
-import java.util.LinkedList;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -16,7 +14,7 @@ import org.junit.Test;
  */
 public class DictionaryBSTTester {
 
-	private String dictFile = "data/words.small.txt"; 
+	private String dictFile = "D:/Editor/data/words.small.txt"; 
 
 	DictionaryBST emptyDict; 
 	DictionaryBST smallDict;
